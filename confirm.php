@@ -11,7 +11,7 @@ if (!isset($_GET['email'])) {
 
     echo "
             <script>
-                window.location.replace('http://localhost/rtcamp_xkcd');
+                window.location.replace('https://xkcd-challenge-comic.herokuapp.com/');
             </script>
             ";
 }
@@ -23,7 +23,7 @@ $result = $conn->query($sql);
 if ($result->num_rows == 0) {
     echo "
             <script>
-                window.location.replace('http://localhost/rtcamp_xkcd');
+                window.location.replace('https://xkcd-challenge-comic.herokuapp.com/');
             </script>
             ";
 }
