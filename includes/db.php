@@ -1,9 +1,11 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = 'tanu';
+
+
+$servername = "remotemysql.com";
+$username = "zPY7KUIiWq";
+$password = "KqLsfnsYwv";
+$dbname = 'zPY7KUIiWq';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
